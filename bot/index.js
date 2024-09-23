@@ -1,11 +1,11 @@
 const { Telegraf, Markup } = require("telegraf");
-const TOKEN = "BOT TOKEN";
+const TOKEN = "7812576129:AAHxLQtfRlX-J5HnkfhED3X-Bx_VHiU_eWA";
 const bot = new Telegraf(TOKEN);
 const express = require("express");
 const app = express()
 app.use(express.json())
-const web_link = "https://6a790a9cfa0f.ngrok.app";
-const community_link = "https://t.me/concept_developer";
+const web_link = "https://pallavademo.netlify.app";
+const community_link = "https://t.me/pallavempire";
 
 
 bot.start((ctx) => {
@@ -13,7 +13,7 @@ bot.start((ctx) => {
     const urlSent = `${web_link}?ref=${startPayload}`;
     const user = ctx.message.from;
     const userName = user.username ? `@${user.username}` : user.first_name;
-    ctx.replyWithMarkdown(`*Hey, ${userName}! I am @concept_developer , Welcome to CDPTap!*
+    ctx.replyWithMarkdown(`*Hey, ${userName}! I am @psllvabot , Welcome to CDPTap!*
 Mine CDPTap cryptocurrency easily and earn CDPTap tokens.
 
 Start mining now and be among the biggest players earning CDPtap tokens daily.
