@@ -912,7 +912,7 @@ useEffect(() => {
               <p className='font-medium'>Let's go!!</p>
             </div>
             <h3 className="font-medium text-[24px] text-[#ffffff] pt-2 pb-2">
-              <span className='text-accent'>+{points}</span> MAX
+              <span className='text-accent'>+{points}</span> PLV
             </h3>
             <p className="pb-6 text-[#bfbfbf] text-[15px] w-full text-center">
               Keep grinding! something huge is coming! Get more {texts.projectSymbol} ow! 
@@ -999,7 +999,7 @@ useEffect(() => {
               <div className="w-full flex flex-col text-center space-y-5 justify-center items-center py-8 relative">
 
 <h1 className='font-semibold text-[18px]'> 
-          Welcome to the <br/> land of Gold & Riches!
+          Welcome to the <br/> land of King and Crowns ✨
 </h1>
 
 <p className='text-[13px] px-6'>
@@ -1063,7 +1063,7 @@ useEffect(() => {
               className="px-6 w-full py-3 text-[15px] bg-accent text-[#000] font-semibold rounded-lg"
               onClick={handleSaveFullName}
             >
-            Contine to GoldCity
+            Contine to PallavEmpire
             </button>
             </div>
           </div>
