@@ -15,7 +15,7 @@ const AdminSettings = () => {
   }, []);
 
   const fetchSettings = async () => {
-    const docRef = doc(db, "settings", "1q01CYx0LFmgLR4wiUxX"); // Replace with your actual document ID
+    const docRef = doc(db, "settings", "hEaHfS1RO44QWwKBohew"); // Replace with your actual document ID
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {
@@ -31,7 +31,7 @@ const AdminSettings = () => {
   };
 
   const handleUpdateSettings = async () => {
-    const docRef = doc(db, "settings", "1q01CYx0LFmgLR4wiUxX"); // Replace with your actual document ID
+    const docRef = doc(db, "settings", "hEaHfS1RO44QWwKBohew"); // Replace with your actual document ID
     try {
       await updateDoc(docRef, settings);
       fetchSettings();
