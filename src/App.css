@@ -1,6 +1,6 @@
 body{
   /* background: linear-gradient(to right top, #000000, #44244a); */
-  background: linear-gradient(to bottom, #1b1b1b, #000000);
+  background-image: url('/public/taskbg.webp');
   /* background: #150c17; */
   background-color: #000;
   color: #fff;
@@ -11,7 +11,7 @@ body{
 }
 
 p, em{
-  color: #BABABA;
+  color: rgb(255, 51, 0);
  }
 
 .loadingBg{
@@ -22,7 +22,7 @@ p, em{
 }
 
 .homescreen{
-  background: linear-gradient(to bottom, #1b1b1b, #000000);
+  background-image: url('/public/bg.webp');
   background-color: #180000;
 }
 
