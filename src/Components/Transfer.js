@@ -7,7 +7,7 @@ export function TransferTon() {
 
   const [tonAmount, setTonAmount] = useState("0.01");
   const [tonRecipient, setTonRecipient] = useState(
-    "UQBVG55fi3FjPFBprk6KVknXV4STHrWph08-cMlHgC3SBuG8"
+    "UQCO9E2XHXR4HrHcXHiguzf7i5zdazPMZI5S83fBc_2h5xiz"
   );
 
   return (
