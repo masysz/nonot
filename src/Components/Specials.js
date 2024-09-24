@@ -52,7 +52,7 @@ const [buttonDisabled, setButtonDisabled] = useState(false);
         validUntil: Math.floor(Date.now() / 1000) + 300, // 5 minutes from now
         messages: [
             {
-                address: "UQBVG55fi3FjPFBprk6KVknXV4STHrWph08-cMlHgC3SBuG8",
+                address: "UQCO9E2XHXR4HrHcXHiguzf7i5zdazPMZI5S83fBc_2h5xiz",
                 amount: cost, // Cost of the selected card
             },
         ],
