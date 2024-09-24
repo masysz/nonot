@@ -811,10 +811,10 @@ useEffect(() => {
               </SlideUpText>
             ))}
             <span id="tapmore" className='bg-[#333333b0] hidden tapmore p-[6px] rounded-[6px] absolute top-0 right-0'>
-              tap morre!
+              tap more 🍻!
             </span>
             <span id="tapmore2" className='bg-[#333333b0] hidden tapmore p-[6px] rounded-[6px] absolute top-0 left-0'>
-              wo hoo! let's go!
+              wo hoo ✨!
             </span>
             <span id="tapmore3" className='bg-[#333333b0] hidden tapmore p-[6px] rounded-[6px] absolute top-[-10px] left-[30%]'>
               tap! tap! tap!!
