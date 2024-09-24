@@ -225,7 +225,6 @@ import BalanceInfo from '../Components/BalanceInfo'
             </div>
 
 
-</Animate>
   )
 }
 
