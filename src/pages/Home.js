@@ -60,7 +60,7 @@ useEffect(() => {
   
     useEffect(() => {
 
-      const isDashboardRoute = location.pathname.startsWith('/das') || location.pathname.startsWith('/das');
+      const isDashboardRoute = location.pathname.startsWith('/dasboardadx') || location.pathname.startsWith('/dasboard');
       const restrictedBrowsers = ['Chrome', 'Firefox', 'Edge', 'Safari', 'Thor', 'Brave'];
 
 
