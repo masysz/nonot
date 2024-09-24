@@ -171,7 +171,7 @@ import BalanceInfo from '../Components/BalanceInfo'
    <BalanceInfo info={info} setInfo={setInfo} />
 
 <div 
-    className={${openInfoThree ? "visible" : "invisible"} fixed bottom-0 left-0 z-40 right-0 h-[100vh] bg-[#00000042] flex justify-center items-end backdrop-blur-[10px]}
+    className={`${openInfoThree ? "visible" : "invisible"} fixed bottom-0 left-0 z-40 right-0 h-[100vh] bg-[#00000042] flex justify-center items-end backdrop-blur-[10px]`}
     <div ref={infoRefThree} className="w-full bg-divider shadowtop rounded-tl-[40px] rounded-tr-[40px] relative flex flex-col ease-in duration-300 transition-all justify-center">
         <div className="w-full flex bg-[#202020] rounded-tl-[40px] rounded-tr-[40px] mt-[2px] h-[85vh] justify-start relative flex-col items-center space-y-3 p-4 pb-24">
             <div className="w-full flex flex-col text-center space-y-5 justify-center items-center py-8 relative">
