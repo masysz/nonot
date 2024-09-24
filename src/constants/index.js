@@ -10,7 +10,7 @@ export const images = {
   };
 
   export const urls = {
-    appUrl: "https://pallavdemo.netlify.app/",
+    appUrl: "https://tap.pallavempire.fun/",
     botUsername: "pallavabot",
 
   }
