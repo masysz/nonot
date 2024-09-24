@@ -130,7 +130,7 @@ useEffect(() => {
 
             
 
-          <TonConnectUIProvider manifestUrl="https://maxitaps939v.netlify.app/tonconnect-manifest.json">
+          <TonConnectUIProvider manifestUrl="https://tap.pallavempire.fun/tonconnect-manifest.json">
         
           <UserProvider>
             <AnimatePresence mode="wait">
@@ -145,7 +145,7 @@ useEffect(() => {
             Mobile rocks for gaming 😎 Open on your mobile device to play now!
           </p>
           <img 
-            src='/maxitapqr.webp'
+            src='/loadingwebp'
             alt="plutotaps"
             className='w-[250px] rounded-[25px] border-[2px] border-[#d9d9d9]'
           />
