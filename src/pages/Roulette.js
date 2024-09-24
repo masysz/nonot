@@ -219,8 +219,7 @@ import BalanceInfo from '../Components/BalanceInfo'
                   Hy 😎!
                   </h3>
                   <p className="pb-6 text-[#c3bfd2] text-[14px] text-center">
-My name is Samuel and I developed this bot app. If you need to purchase the source code for
-this project or you want to create similar projects like this, you can message me directly on telegram via <a href="https://t.me/conceptdevelopers" className="text-[#ffba4c]">t.me/conceptdevelopers</a>
+My name is kinshu and I developed this bot app. If you need to know anything about game and project Visit Us at <a href="https://t.me/pallavempire" className="text-[#ffba4c]">PallavaEmpire</a>
                   </p>
 
  
@@ -231,7 +230,7 @@ this project or you want to create similar projects like this, you can message m
                   onClick={()=> setOpenInfoThree(false)}
                     className={`bg-btn4 text-[#000] w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]`}
                   >
-                  Okay, Continue 🤙
+                  Okay, Continue 🍻
                   </button>
                 </div>
               </div>
