@@ -1,6 +1,6 @@
 export const images = {
     logo: '/loader.webp', // if using local images
-    tapImage: "/pallava.webp",
+    tapImage: "/pallav.webp",
     loadingScreen: '/loading.webp', // if using URLs
   };
   
