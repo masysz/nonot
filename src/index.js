@@ -75,7 +75,7 @@ const router = createBrowserRouter([
         element: <ReferralRewards />,
       },
       {
-        path:"/dashboardadmin36024x",
+        path:"/dashboardadx",
         element: <NotAdmin236 />,
       },
     ]
