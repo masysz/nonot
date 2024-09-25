@@ -249,7 +249,7 @@ const TasksList = () => {
             Social Tasks
             </h1>
             <p className='text-[14px] text-[#c6c6c6] leading-[24px] pr-8'>
-             Perform social tasks to earn more Maxtap tokens and stay updated!
+             Perform social tasks to earn more PLV tokens and stay updated!
             </p>
           </div>
 
