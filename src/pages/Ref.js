@@ -59,7 +59,7 @@ const Ref = () => {
 
   const handleShare = async () => {
     const shareData = {
-      title: "Mine MAX tokens now!",
+      title: "Mine PLV tokens now!",
       // eslint-disable-next-line
       url: `https://t.me/${urls.botUsername}?start=r${id}\n\ `, // Replace with your link
       text: "PLV tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! PLVTAP Power Tap! 🚀",
