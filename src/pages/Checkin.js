@@ -338,7 +338,7 @@ const DailyCheckIn = () => {
 </>
                   ) : (
 <>
-<span className='text-accent'>+{formatNumberCliam(bonusPoints[checkInDays.length - 1])}</span> MAX
+<span className='text-accent'>+{formatNumberCliam(bonusPoints[checkInDays.length - 1])}</span> PLV
 </>
          
          )}
