@@ -418,7 +418,7 @@ export const UserProvider = ({ children }) => {
 
 
     // Fetch settings data
-    const settingsDocRef = doc(db, 'settings', 'hEaHfS1RO44QWwKBohew'); // Replace with your actual document ID
+    const settingsDocRef = doc(db, 'settings', 'RZwkejU513akARQc16nx'); // Replace with your actual document ID
     const settingsDocSnap = await getDoc(settingsDocRef);
 
     if (settingsDocSnap.exists()) {
