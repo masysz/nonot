@@ -216,25 +216,25 @@ import BalanceInfo from '../Components/BalanceInfo'
                   <IoIosWarning size={50} className="text-[#d03a2c]"/>
                   </div>
                   <h3 className="font-semibold text-[24px] py-4">
-                  Hello User !
+                  Hello User 👋!
                   </h3>
                   <p className="pb-6 text-[#c3bfd2] text-[14px] text-center">
-My name <a href="https://t.me/pallavempire" className="text-[#ffba4c]">Kinshu</a> and I developed this bot app. If you need to know anything about game and project Visit Us at <a href="https://t.me/pallavempire" className="text-[#ffba4c]">PallavaEmpire</a>
+My name is Kinshu and I developed this bot app. I Think You Should Join Our Channel Here Is The Link Join Now <a href="https://t.me/pallavaempire" className="text-[#ffba4c]">Pallava-Empire</a>
                   </p>
 
  
                 </div>
 
                 <div className="w-full flex justify-center">
-  <button
-    onClick={() => setOpenInfoThree(false)}
-    className={`${openInfoThree ? 'bg-blue-500' : 'bg-btn4'}`}
-    style={{ color: '#000' }}
-    className="w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]"
-  >
-    Already Joined 🫶
-  </button>
-</div>
+                  <button
+                  onClick={()=> setOpenInfoThree(false)}
+                    className={`bg-blue-500 text-[#000] w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]`}
+                  >
+
+             Already Joined ☃️
+                  </button>
+                </div>
+              </div>
 
 
 </div>
