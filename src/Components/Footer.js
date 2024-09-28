@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import { PiSpinnerBallDuotone } from "react-icons/pi";
-import { PiNotebookFill } from "react-icons/pi";
-import { PiHandTapFill } from "react-icons/pi";
+//import { PiSpinnerBallDuotone } from "react-icons/pi";
+//import { PiNotebookFill } from "react-icons/pi";
+//import { PiHandTapFill } from "react-icons/pi";
 // import { IoWalletSharp } from "react-icons/io5";
 import { useUser } from "../context/userContext";
 
