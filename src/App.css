@@ -1,18 +1,50 @@
-body{
-  /* background: linear-gradient(to right top, #000000, #44244a); */
-  background-image: url('/public/taskbg.webp');
-  /* background: #150c17; */
-  background-color: #000;
+body {
+  background: linear-gradient(to right top, #000000, #44244a);
   color: #fff;
-  max-height: 100vh;
-  touch-action: none; /* Prevent touch actions */
-  background-repeat: no-repeat;
-  
+  font-family: 'Arial', sans-serif;
 }
 
-p, em{
-  color: rgb(255, 51, 0);
- }
+button {
+  background-color: #ffba4c;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e0a43c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+  color: #ffba4c;
+}
+
+.card {
+  background-color: #1b1b1b;
+  border: 1px solid #ffba4c;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+}
 
 .loadingBg{
   background-image: url('/public/loading.webp');
