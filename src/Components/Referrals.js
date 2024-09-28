@@ -18,7 +18,7 @@ const Referrals = () => {
 
   const copyToClipboard = () => {
     // eslint-disable-next-line
-    const reflink = `https://t.me/pallavabot?startapp=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PLV Power Tap! 🚀`;
+    const reflink = `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PALLAV Power Tap! 🚀`;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard
@@ -61,7 +61,7 @@ const Referrals = () => {
     const shareData = {
       title: "Mine PLV tokens now!",
       // eslint-disable-next-line
-      url: `https://t.me/pallavabot?startapp=r${id}\n\ `, // Replace with your link
+      url: `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\ `, // Replace with your link
       text: "MAX tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! PALLAVA Power Tap! 🚀",
     };
 
@@ -80,7 +80,7 @@ const Referrals = () => {
   const fallbackShare = (shareData) => {
     const encodedText = encodeURIComponent(
       // eslint-disable-next-line
-      `${shareData.url} \n\MAX tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PALLAVA Power Tap! 🚀`
+      `${shareData.url} \n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PALLAV Power Tap! 🚀`
     );
     const encodedUrl = encodeURIComponent(shareData.url);
 
