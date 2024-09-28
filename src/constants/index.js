@@ -1,17 +1,17 @@
 export const images = {
     logo: '/loader.webp', // if using local images
-    tapImage: "/maxitap.webp",
+    tapImage: "/pallav.webp",
     loadingScreen: '/loading.webp', // if using URLs
   };
   
   export const texts = {
-    projectName: "MAXITAP",
-    projectSymbol: "MAX",
+    projectName: "PALLAVA",
+    projectSymbol: "PLV",
   };
 
   export const urls = {
-    appUrl: "https://maxitap.netlify.app",
-    botUsername: "maxitapbot",
+    appUrl: "https://game.pallavempire.fun",
+    botUsername: "pallavabot",
 
   }
   
