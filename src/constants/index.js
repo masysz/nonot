@@ -10,7 +10,7 @@ export const images = {
   };
 
   export const urls = {
-    appUrl: "https://tap.pallavempire.fun/",
+    appUrl: "https://game.pallavempire.fun",
     botUsername: "pallavabot",
 
   }
