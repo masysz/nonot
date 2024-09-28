@@ -318,7 +318,7 @@ export const UserProvider = ({ children }) => {
   const [userYoutubeTasks, setUserYoutubeTasks] = useState([]);
 
   const assets = [
-    {symbol: 'MAX', name: 'Maxicoin', balance: balance, icon: `${images.tapImage}`, price: 0.0004348},
+    {symbol: 'PLV', name: 'Pallava', balance: balance, icon: `${images.tapImage}`, price: 0.0000008},
     {symbol: 'USDT', name: 'Tether US', balance: 0, icon: '/tether.webp', price: 1},
     {symbol: 'TON', name: 'Toncoin', balance: 0, icon: '/ton.png', price: 6.68},
     {symbol: 'NOT', name: 'Notcoin', balance: 0, icon: '/notcoin.jpg', price: 0.01075},
@@ -418,7 +418,7 @@ export const UserProvider = ({ children }) => {
 
 
     // Fetch settings data
-    const settingsDocRef = doc(db, 'settings', '1q01CYx0LFmgLR4wiUxX'); // Replace with your actual document ID
+    const settingsDocRef = doc(db, 'settings', 'hEaHfS1RO44QWwKBohew'); // Replace with your actual document ID
     const settingsDocSnap = await getDoc(settingsDocRef);
 
     if (settingsDocSnap.exists()) {
@@ -734,14 +734,14 @@ export const UserProvider = ({ children }) => {
     const newBalance = balance + refBonus;
   
     // Find the current 'MAX' token in walletAssets
-    const maxToken = walletAssets.find(asset => asset.symbol === 'MAX');
+    const maxToken = walletAssets.find(asset => asset.symbol === 'PLV');
   
     // Check if maxToken exists and if its balance is different from the newBalance
     if (maxToken && maxToken.balance !== newBalance) {
       // Update the balance for the 'MAX' token
       setWalletAssets(prevAssets =>
         prevAssets.map(asset =>
-          asset.symbol === 'MAX' ? { ...asset, balance: newBalance } : asset
+          asset.symbol === 'PLV' ? { ...asset, balance: newBalance } : asset
         )
       );
     }
