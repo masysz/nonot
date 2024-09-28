@@ -2,7 +2,7 @@ import React, { createContext, useContext, useState, useEffect, useCallback } fr
 import { doc, getDoc, setDoc, updateDoc, arrayUnion, getDocs, collection } from 'firebase/firestore';
 import { db } from '../firebase/firestore'; // Adjust the path as needed
 import { useLocation } from 'react-router-dom';
-import { images } from '../constants';
+//import { images } from '../constants';
 
 const UserContext = createContext();
 
