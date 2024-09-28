@@ -226,14 +226,15 @@ My name <a href="https://t.me/pallavempire" className="text-[#ffba4c]">Kinshu</a
                 </div>
 
                 <div className="w-full flex justify-center">
-                  <button
-                  onClick={()=> setOpenInfoThree(false)}
-                    className={`${condition ? 'bg-blue-500' : 'bg-btn4'} text-[#000] w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]`}
-                  >
-                  Already Joined 🫶
-                  </button>
-                </div>
-              </div>
+  <button
+    onClick={() => setOpenInfoThree(false)}
+    className={`${openInfoThree ? 'bg-blue-500' : 'bg-btn4'}`}
+    style={{ color: '#000' }}
+    className="w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]"
+  >
+    Already Joined 🫶
+  </button>
+</div>
 
 
 </div>
