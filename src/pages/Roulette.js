@@ -216,10 +216,10 @@ import BalanceInfo from '../Components/BalanceInfo'
                   <IoIosWarning size={50} className="text-[#d03a2c]"/>
                   </div>
                   <h3 className="font-semibold text-[24px] py-4">
-                  Hy 😎!
+                  Hello User !
                   </h3>
                   <p className="pb-6 text-[#c3bfd2] text-[14px] text-center">
-My name is kinshu and I developed this bot app. If you need to know anything about game and project Visit Us at <a href="https://t.me/pallavempire" className="text-[#ffba4c]">PallavaEmpire</a>
+My name <a href="https://t.me/pallavempire" className="text-[#ffba4c]">Kinshu</a> and I developed this bot app. If you need to know anything about game and project Visit Us at <a href="https://t.me/pallavempire" className="text-[#ffba4c]">PallavaEmpire</a>
                   </p>
 
  
@@ -228,9 +228,9 @@ My name is kinshu and I developed this bot app. If you need to know anything abo
                 <div className="w-full flex justify-center">
                   <button
                   onClick={()=> setOpenInfoThree(false)}
-                    className={`bg-btn4 text-[#000] w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]`}
+                    className={`${condition ? 'bg-blue-500' : 'bg-btn4'} text-[#000] w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]`}
                   >
-                  Okay, Continue 🍻
+                  Already Joined 🫶
                   </button>
                 </div>
               </div>
