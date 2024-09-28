@@ -52,7 +52,7 @@ const [buttonDisabled, setButtonDisabled] = useState(false);
         validUntil: Math.floor(Date.now() / 1000) + 300, // 5 minutes from now
         messages: [
             {
-                address: "UQCO9E2XHXR4HrHcXHiguzf7i5zdazPMZI5S83fBc_2h5xiz",
+                address: "EQD5mxRgCuRNLxKxeOjG6r14iSroLF5FtomPnet-sgP5xNJb",
                 amount: cost, // Cost of the selected card
             },
         ],
@@ -342,7 +342,7 @@ const [buttonDisabled, setButtonDisabled] = useState(false);
 
                 <IoCheckmarkCircle size={40} className='text-green-500'/>
                 <h2 className='font-medium text-[13px] text-white px-4'>
-                    You now own this special card 😎
+                    You Now Own This Special Card 😎
                 </h2>
 
             </div>
