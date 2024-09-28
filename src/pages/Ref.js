@@ -18,7 +18,7 @@ const Ref = () => {
 
   const copyToClipboard = () => {
     // eslint-disable-next-line
-    const reflink = `https://t.me/${urls.botUsername}?start=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PLV Power Tap! 🚀`;
+    const reflink = `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PLV Power Tap! 🚀`;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard
@@ -61,7 +61,7 @@ const Ref = () => {
     const shareData = {
       title: "Mine PLV tokens now!",
       // eslint-disable-next-line
-      url: `https://t.me/${urls.botUsername}?start=r${id}\n\ `, // Replace with your link
+      url: `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\ `, // Replace with your link
       text: "PLV tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! PLVTAP Power Tap! 🚀",
     };
 
