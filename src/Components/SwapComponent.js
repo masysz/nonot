@@ -17,7 +17,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
     const [balanceError, setBalanceError] = useState(false);
     const [openAssetSelectionModal, setOpenAssetSelectionModal] = useState(null);
 
-    const [selectedAssetFrom, setSelectedAssetFrom] = useState(walletAssets.find(asset => asset.symbol === 'PLV'));
+    const [selectedAssetFrom, setSelectedAssetFrom] = useState(walletAssets.find(asset => asset.symbol === 'MAX'));
     const [selectedAssetTo, setSelectedAssetTo] = useState(walletAssets.find(asset => asset.symbol === 'USDT'));
   
 
@@ -54,7 +54,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
         let newBalance = balance;
         const updatedAssets = walletAssets.map(asset => {
             if (asset.symbol === selectedAssetFrom.symbol) {
-                if (selectedAssetFrom.symbol === 'PLV') {
+                if (selectedAssetFrom.symbol === 'MAX') {
                     newBalance -= parseFloat(swapAmount); // Deduct the swapAmount from the user's general balance
                 }
                 return {
@@ -87,14 +87,14 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
         try {
           await updateDoc(userRef, {
             walletAssets: updatedAssets,
-            ...(selectedAssetFrom.symbol === 'PLV' && { balance: newBalance }),
+            ...(selectedAssetFrom.symbol === 'MAX' && { balance: newBalance }),
             'history.swaps': arrayUnion(swapHistory), // Add the swap history to the user's history in Firestore
           });
       
           console.log('Swapped values, balance, and history updated successfully in Firestore');
           
           setWalletAssets(updatedAssets);
-          if (selectedAssetFrom.symbol === 'PLV') {
+          if (selectedAssetFrom.symbol === 'MAX') {
             setBalance(newBalance);
           }
     
@@ -107,7 +107,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
                 }
     
                 setSwapAmount('');
-                setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'PLV'));
+                setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'MAX'));
                 setSelectedAssetTo(walletAssets.find(asset => asset.symbol === 'USDT'));
                 setBalanceError(false);
     
@@ -149,13 +149,13 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
         if (type === 'from') {
           setSelectedAssetFrom(asset);
           // Automatically select the first asset in the list that's not Maxicoin as the 'to' asset
-          if (asset.symbol === 'PLV') {
-            const filteredAssets = walletAssets.filter(asset => asset.symbol !== 'PLV');
+          if (asset.symbol === 'MAX') {
+            const filteredAssets = walletAssets.filter(asset => asset.symbol !== 'MAX');
             setSelectedAssetTo(filteredAssets[0]); // Select the first non-Maxicoin asset by default
           }
         } else if (type === 'to') {
           // Ensure Maxicoin is not selectable as 'to' asset
-          if (asset.symbol !== 'PLV') {
+          if (asset.symbol !== 'MAX') {
             setSelectedAssetTo(asset);
           }
         }
@@ -164,7 +164,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
       
       // When rendering the asset selection modal
       const filteredWalletAssets = openAssetSelectionModal === 'to' 
-      ? walletAssets.filter(asset => asset.symbol !== 'PLV') 
+      ? walletAssets.filter(asset => asset.symbol !== 'MAX') 
       : walletAssets;
     
       const clearInput = () => {
@@ -176,7 +176,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
         setOpenSwapModal(false);
         setSwapAmount('');
         setCalculatedSwapValue(0);
-        setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'PLV')); // Reset to default 'from' asset
+        setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'MAX')); // Reset to default 'from' asset
         setSelectedAssetTo(walletAssets.find(asset => asset.symbol === 'USDT')); // Reset to default 'to' asset
         setBalanceError(false);
       }
@@ -185,7 +185,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
         setCalculatedSwapValue(0);
         setOpenSuccessModal(false);
         setSwapAmount('');
-        setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'PLV')); // Reset to default 'from' asset
+        setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'MAX')); // Reset to default 'from' asset
         setSelectedAssetTo(walletAssets.find(asset => asset.symbol === 'USDT')); // Reset to default 'to' asset
       }
     
@@ -219,7 +219,7 @@ const SwapComponent = ({openSwapModal, setOpenSwapModal}) => {
                 setCalculatedSwapValue(0);
                 setOpenConfirmSwapModal(false);
                 setOpenSuccessModal(false);
-                setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'PLV')); // Reset to default 'from' asset
+                setSelectedAssetFrom(walletAssets.find(asset => asset.symbol === 'MAX')); // Reset to default 'from' asset
                 setSelectedAssetTo(walletAssets.find(asset => asset.symbol === 'USDT')); // Reset to default 'to' asset
                 setBalanceError(false);
               }

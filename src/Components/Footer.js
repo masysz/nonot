@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
-//import { PiSpinnerBallDuotone } from "react-icons/pi";
-//import { PiNotebookFill } from "react-icons/pi";
-//import { PiHandTapFill } from "react-icons/pi";
+import { PiSpinnerBallDuotone } from "react-icons/pi";
+import { PiNotebookFill } from "react-icons/pi";
+import { PiHandTapFill } from "react-icons/pi";
 // import { IoWalletSharp } from "react-icons/io5";
 import { useUser } from "../context/userContext";
 
@@ -18,32 +18,28 @@ const footerLinks = [
   {
     title: "Earn",
     link: "/",
-    icon: selectedExchange.id === 'selectex' ? (
-  <img src="https://img.icons8.com/?size=100&id=111607&format=png&color=000000" alt="selectex" className={location.pathname === "/" ? "w-[28px] h-[28px]" : "w-[28px] h-[28px]"} />
-) : (
-  <img id={selectedExchange.id} src={selectedExchange.icon} alt="selected" className="w-[26px]" />
-)
+    icon: selectedExchange.id === 'selectex' ? (<><PiHandTapFill size={20} className={location.pathname === "/" ? "w-[26px] h-[26px]" : "w-[22px] h-[22px]"} /></>) : (<><img id={selectedExchange.id} src={selectedExchange.icon} alt="selected" className="w-[26px]"/></>)
   },
   {
     title: "LuckyWin",
     link: "/roulette",
-    icon: <img src='https://img.icons8.com/?size=100&id=111401&format=png&color=000000' alt="spinner" className={location.pathname === "/mongo" ? "w-[26px] h-[26px]" : ""}/>
+    icon: <PiSpinnerBallDuotone size={22} className={location.pathname === "/mongo" ? "w-[26px] h-[26px]" : ""}/>
   },
   {
       title: "Mine",
       link: "/mine",
-      icon: <img src='https://img.icons8.com/?size=100&id=ZsO1TG7py63J&format=png&color=000000' alt='mine'className={location.pathname === "/mine" ? "w-[26px] h-[26px]" : ""}/>
+      icon: <img src='/mine.webp' alt='mine'className={location.pathname === "/mine" ? "w-[22px] brightness-[100]" : "w-[22px] brightness-[1.8]"}/>
     },
 
 {
   title: "Activities",
   link: "/tasks",
-  icon: <img src='https://img.icons8.com/?size=100&id=114415&format=png&color=000000' alt="wallet"  className={location.pathname === "/tasks" ? "w-[26px] h-[26px]" : ""} />
+  icon: <PiNotebookFill size={20} className={location.pathname === "/tasks" ? "w-[26px] h-[26px]" : ""} />
 },
   {
       title: "Wallet",
       link: "/wallet",
-      icon: <img src='https://img.icons8.com/?size=100&id=ZsO1TG7py63J&format=png&color=000000' alt="wallet" className={location.pathname === "/wallet" ? "w-[26px] h-[26px]" : ""}/>
+      icon: <img src='/airdrop.webp' alt="wallet" className={location.pathname === "/wallet" ? "w-[22px] h-[22px]" : "w-[18px] h-[18px] grayscale"}/>
   },
 ]
   return (

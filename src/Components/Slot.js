@@ -167,7 +167,7 @@ const SlotMachine = () => {
       setMsg(
         <>
        <span className="text-primary">
-        Congratulations! You won <span className="font-semibold text-accent text-nowrap">{formatNumber(award)}</span> Points, Click on Claim now!
+        Congratulations! You won <span className="font-semibold text-accent text-nowrap">{formatNumber(award)}</span> points, Click on Claim now!
         </span> 
         </>
       );
@@ -358,7 +358,7 @@ SPIN
     <div className="w-full flex justify-between items-center gap-2 px-4">
 
         <div className="w-[40%] h-[2px] bg-cards2"></div>
-        <span className="text-nowrap">bring more luck 🦾</span>
+        <span className="text-nowrap">more luck 💪</span>
         <div className="w-[40%] h-[2px] bg-cards2"></div>
 
     </div>
@@ -400,7 +400,7 @@ SPIN
               <p className='font-medium'>Let's go!!</p>
             </div>
             <h3 className="font-medium text-[24px] text-[#ffffff] pt-2 pb-2">
-              <span className='text-accent'>+{points}</span> PLV
+              <span className='text-accent'>+{points}</span> MAX
             </h3>
             <p className="pb-6 text-[#bfbfbf] text-[15px] w-full text-center">
               Keep grinding! something huge is coming! Get more {texts.projectSymbol} now! 
