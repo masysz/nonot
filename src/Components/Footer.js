@@ -19,7 +19,7 @@ const footerLinks = [
     title: "Earn",
     link: "/",
     icon: selectedExchange.id === 'selectex' ? (
-  <img src="https://img.icons8.com/?size=100&id=111607&format=png&color=000000" alt="selectex" className={location.pathname === "/" ? "w-[28px] h-[28px]" : "w-[28px] h-[28px]"} />
+  <img src="https://img.icons8.com/?size=100&id=112793&format=png&color=000000" alt="selectex" className={location.pathname === "/" ? "w-[26px] h-[28px]" : "w-[26px] h-[26px]"} />
 ) : (
   <img id={selectedExchange.id} src={selectedExchange.icon} alt="selected" className="w-[26px]" />
 )
@@ -43,7 +43,7 @@ const footerLinks = [
   {
       title: "Wallet",
       link: "/wallet",
-      icon: <img src='https://img.icons8.com/?size=100&id=ZsO1TG7py63J&format=png&color=000000' alt="wallet" className={location.pathname === "/wallet" ? "w-[26px] h-[26px]" : ""}/>
+      icon: <img src='https://img.icons8.com/?size=100&id=114497&format=png&color=000000' alt="wallet" className={location.pathname === "/wallet" ? "w-[26px] h-[26px]" : ""}/>
   },
 ]
   return (
