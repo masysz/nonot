@@ -19,7 +19,7 @@ const footerLinks = [
     title: "Earn",
     link: "/",
     icon: selectedExchange.id === 'selectex' ? (
-  <img src="https://img.icons8.com/?size=100&id=112793&format=png&color=000000" alt="selectex" className={location.pathname === "/" ? "w-[26px] h-[28px]" : "w-[26px] h-[26px]"} />
+  <img src="https://img.icons8.com/?size=100&id=112793&format=png&color=000000" alt="selectex" className={location.pathname === "/" ? "w-[26px] h-[28px]" : "w-[28px] h-[28px]"} />
 ) : (
   <img id={selectedExchange.id} src={selectedExchange.icon} alt="selected" className="w-[26px]" />
 )
