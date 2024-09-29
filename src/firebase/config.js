@@ -4,12 +4,12 @@ import { getAuth, setPersistence, browserLocalPersistence } from 'firebase/auth'
 
 //* Add the Web App's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyA6a8L7cLvN60ztfcNPdaCYU4ecA-AgCd0",
+  authDomain: "pallavceo.firebaseapp.com",
+  projectId: "pallavceo",
+  storageBucket: "pallavceo.appspot.com",
+  messagingSenderId: "797835591042",
+  appId: "1:797835591042:web:a2d5ab0341c91e1451e39b"
 };
 
 //* Initialize Firebase
