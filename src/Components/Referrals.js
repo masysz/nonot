@@ -61,7 +61,7 @@ const Referrals = () => {
     const shareData = {
       title: "Mine PLV tokens now!",
       // eslint-disable-next-line
-      url: `https://t.me/pallava/game?startapp=r${id}\n\ `, // Replace with your link
+      url: `https://t.me/pallavabot/game?startapp=r${id}\n\ `, // Replace with your link
       text: "MAX tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! PALLAVA Power Tap! 🚀",
     };
 
