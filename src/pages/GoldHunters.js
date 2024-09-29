@@ -69,7 +69,7 @@ const characters = [
   },
   {
     name: 'girl',
-    avatar: '/girl.webp'
+    avatar: '/girl.png'
   }
 ];
 
