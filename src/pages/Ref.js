@@ -18,7 +18,7 @@ const Ref = () => {
 
   const copyToClipboard = () => {
     // eslint-disable-next-line
-    const reflink = `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PLV Power Tap! 🚀`;
+    const reflink = `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\PLV tokens mining is live! Two is better than one!🔥 Play with me, Earn More coins. let\'s double the fun (and earnings 🤑)! PLV Power Tap! ☃️`;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard
@@ -62,7 +62,7 @@ const Ref = () => {
       title: "Mine PLV tokens now!",
       // eslint-disable-next-line
       url: `https://t.me/${urls.botUsername}/game?startapp=r${id}\n\ `, // Replace with your link
-      text: "PLV tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! PLVTAP Power Tap! 🚀",
+      text: "PLV tokens mining is live! Two is better than one!🔥 Play with me, Earn More coins. let\'s double the fun (and earnings 🤑)! PLV Power Tap! ☃️",
     };
 
     if (navigator.share) {
@@ -80,7 +80,7 @@ const Ref = () => {
   const fallbackShare = (shareData) => {
     const encodedText = encodeURIComponent(
       // eslint-disable-next-line
-      `${shareData.url} \n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PLVTAP Power Tap! 🚀`
+      `${shareData.url} \n\PLV tokens mining is live! Two is better than one!🔥 Play with me, Earn More coins. let\'s double the fun (and earnings 🤑)! PLV Power Tap! ☃️`
     );
     const encodedUrl = encodeURIComponent(shareData.url);
 
