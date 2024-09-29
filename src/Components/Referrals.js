@@ -18,7 +18,7 @@ const Referrals = () => {
 
   const copyToClipboard = () => {
     // eslint-disable-next-line
-    const reflink = `https://t.me/pallavabot/game?startapp=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PALLAV Power Tap! 🚀`;
+    const reflink = `https://t.me/pallavabot?start=r${id}\n\PLV tokens mining is live! Two is better than one!  Join my squad, and let\'s double the fun (and earnings 🤑)! PALLAV Power Tap! 🚀`;
 
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard
@@ -61,7 +61,7 @@ const Referrals = () => {
     const shareData = {
       title: "Mine PLV tokens now!",
       // eslint-disable-next-line
-      url: `https://t.me/pallavabot/game?startapp=r${id}\n\ `, // Replace with your link
+      url: `https://t.me/pallavabot?start=r${id}\n\ `, // Replace with your link
       text: "MAX tokens mining is live! Two is better than one!  Join my squad, and let's double the fun (and earnings 🤑)! PALLAVA Power Tap! 🚀",
     };
 
