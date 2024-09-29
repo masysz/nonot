@@ -22,8 +22,8 @@ p, em{
 }
 
 .homescreen{
-  background: linear-gradient(to bottom, #1b1b1b, #000000);
-  background-color: #180000;
+  background: linear-gradient(to bottom, #5496ea, #000000);
+  background-color: #5496ea;
 }
 
 #root{
@@ -85,7 +85,7 @@ p, em{
 
 .taskbg{
   background: linear-gradient(to bottom, #1b1b1b, #000000);
-  background-color: #180000;
+  background-color: #5496ea;
   color: #fff;
   max-height: 100vh;
   touch-action: none; /* Prevent touch actions */
