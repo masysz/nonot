@@ -18,11 +18,6 @@ const Roulette = () => {
     const infoRefThree = useRef(null);
     const [info, setInfo] = useState(false);
 
-    const handleClickOutside = (event) => {
-      if (infoRefThree.current && !infoRefThree.current.contains(event.target)) {
-        setOpenInfoThree(false);
-      }
-    };
 
     
     const initialLevelIndex = userLevelss.findIndex(level => tapBalance < level.tapBalanceRequired);
