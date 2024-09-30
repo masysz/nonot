@@ -81,7 +81,7 @@ const Qualify = () => {
 
 
 <div className='w-full flex items-center justify-center py-8'>
-    <img alt="daxy" src={images.tapImage} 
+    <img alt="daxy" src=/pallav.webp 
             className="w-[160px] h-[160px] animate-spin spinso"
             />
 </div>
