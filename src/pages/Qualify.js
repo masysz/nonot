@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Animate from '../Components/Animate'
 import { useUser } from '../context/userContext'
 import { useNavigate } from 'react-router-dom'
-import { images } from "../constants";
+//import { images } from "../constants";
 
 const Qualify = () => {
     const {balance, refBonus, purchasedCards, profitHour} = useUser()
