@@ -1,7 +1,70 @@
 {
-    "url": "https://game.pallavaempire.fun", 
-    "name": "Pallava Airdrop",                   
-    "iconUrl": "https://pallavaempire.fun/loader.webp",          
-    "termsOfUseUrl": "",  
-    "privacyPolicyUrl": "" 
+  "name": "Pallava-Empire",
+  "description": "Empire Where You Can Make Tokens by Refer, Invite & Tapping",
+  "url": "https://game.pallavempire.fun",
+  "icons": [
+    "https://img.icons8.com/?size=100&id=114497&format=png&color=000000"
+  ],
+  "redirects": [
+    "https://t.me/pallavabot/game"
+  ],
+  "permissions": [
+    "ton:account",
+    "ton:sendTransaction"
+  ],
+  "version": "1.0.0",
+  "author": "Pallava-Empire",
+  "contact": {
+    "email": "hi@pallavaempirebot.com",
+    "website": "https://pallavempire.fun"
+  },
+  "categories": [
+    "Finance",
+    "Utilities"
+  ],
+  "tags": [
+    "TON",
+    "Blockchain",
+    "Cryptocurrency"
+  ]
+}
+Plan:
+Create a new file named tonconnect-manifest.json in the current working directory.
+Add the corrected JSON structure.
+Save the file.
+I will now proceed to create the tonconnect-manifest.json file with the provided content.
+
+The tonconnect-manifest.json file has been successfully created with the provided content. Please review the file to ensure everything is correct.
+
+Here is the final content of the tonconnect-manifest.json file:
+
+{
+  "name": "Pallava-Empire",
+  "description": "Empire Where You Can Make Tokens by Refer, Invite & Tapping",
+  "url": "https://game.pallavempire.fun",
+  "icons": [
+    "https://img.icons8.com/?size=100&id=114497&format=png&color=000000"
+  ],
+  "redirects": [
+    "https://t.me/pallavabot/game"
+  ],
+  "permissions": [
+    "ton:account",
+    "ton:sendTransaction"
+  ],
+  "version": "1.0.0",
+  "author": "Pallava-Empire",
+  "contact": {
+    "email": "hi@pallavaempirebot.com",
+    "website": "https://pallavempire.fun"
+  },
+  "categories": [
+    "Finance",
+    "Utilities"
+  ],
+  "tags": [
+    "TON",
+    "Blockchain",
+    "Cryptocurrency"
+  ]
 }
