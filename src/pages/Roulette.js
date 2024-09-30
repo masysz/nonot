@@ -219,7 +219,7 @@ import BalanceInfo from '../Components/BalanceInfo'
                   Hello User 👋!
                   </h3>
                   <p className="pb-6 text-[#c3bfd2] text-[14px] text-center">
-My name is Kinshu and I developed this bot app. I Think You Should Join Our Channel Here Is The Link Join Now <a href="https://t.me/pallavaempire" className="text-[#ffba4c]">Pallava-Empire</a>
+Mʏ ɴᴀᴍᴇ ɪs Kɪɴsʜᴜ ᴀɴᴅ I ᴅᴇᴠᴇʟᴏᴘᴇᴅ ᴛʜɪs ʙᴏᴛ ᴀᴘᴘ. I Tʜɪɴᴋ Yᴏᴜ Sʜᴏᴜʟᴅ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ Hᴇʀᴇ Is Tʜᴇ Lɪɴᴋ Jᴏɪɴ Nᴏᴡ <a href="https://t.me/pallavaempire" className="text-[#fffff]">𝗣𝗮𝗹𝗹𝗮𝘃𝗮 𝗘𝗺𝗽𝗶𝗿𝗲</a>
                   </p>
 
  
@@ -231,7 +231,7 @@ My name is Kinshu and I developed this bot app. I Think You Should Join Our Chan
                     className={`bg-blue-500 text-[#000] w-full py-4 px-3 flex items-center justify-center text-center rounded-[12px] font-semibold text-[18px]`}
                   >
 
-             Already Joined ☃️
+             Aʟʀᴇᴀᴅʏ Jᴏɪɴᴇᴅ ☃️
                   </button>
                 </div>
               </div>
