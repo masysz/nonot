@@ -130,7 +130,7 @@ useEffect(() => {
 
             
 
-          <TonConnectUIProvider manifestUrl="https://game.pallavempire.fun/manifest.json">
+          <TonConnectUIProvider manifestUrl="https://t.me/pallavabot/tonconnect-manifest.json">
         
           <UserProvider>
             <AnimatePresence mode="wait">
