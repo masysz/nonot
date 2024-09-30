@@ -80,7 +80,7 @@ p, em{
 }
 
 .taskhead{
-  background: linear-gradient(to bottom, #1b1b1b, #000000);
+  background: linear-gradient(to bottom, #bfabab, #000000);
 }
 
 .taskbg{
@@ -266,7 +266,7 @@ p, em{
 
 .spin2{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
@@ -278,7 +278,7 @@ p, em{
 
 .spin3{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
@@ -292,7 +292,7 @@ p, em{
 
 .spin4{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
@@ -306,7 +306,7 @@ p, em{
 
 .spin5{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
@@ -320,13 +320,13 @@ p, em{
 
 .spin6{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
   border-color: transparent;
   border-radius: 50%;
-  border-top-color: #8580cf;
+  border-top-color: #8c87d2;
   rotate: 275deg;
   z-index: 20;
 
@@ -334,7 +334,7 @@ p, em{
 
 .spin7{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2
   position: absolute;
   width: 140px;
   height: 140px;
@@ -347,7 +347,7 @@ p, em{
 
 .spin8{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
@@ -361,7 +361,7 @@ p, em{
 
 .spin9{
 
-  border: 10px solid #383568;
+  border: 10px solid #8c87d2;
   position: absolute;
   width: 140px;
   height: 140px;
@@ -1105,7 +1105,7 @@ text-shadow: 0 -1px 0 rgba(0,0,0,.3), 0 1px 0 rgba(255,255,255,.5);
 }
 
 .taskbgy{
-  background: linear-gradient(to right top, #000000, #411111);
+  background: linear-gradient(to right top, #000000, #BF967E);
   background-color: #000;
   color: #fff;
   height: var(--tg-viewport-stable-height);
