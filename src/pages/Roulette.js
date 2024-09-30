@@ -24,18 +24,6 @@ const Roulette = () => {
       }
     };
 
-   // useEffect(() => {
-  //    if (openInfoThree) {
-        //)/document.addEventListener('mousedown', handleClickOutside);
-    //  } else {
-        //document.removeEventListener('mousedown', handleClickOutside);
-    /  }
-      
-      return () => {
-        //document.removeEventListener('mousedown', handleClickOutside);
-      };
-      // eslint-disable-next-line
-   // }, [openInfoThree]);
     
     const initialLevelIndex = userLevelss.findIndex(level => tapBalance < level.tapBalanceRequired);
     const currentLevelIndex = initialLevelIndex === -1 ? userLevelss.length - 1 : initialLevelIndex;
