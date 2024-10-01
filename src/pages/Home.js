@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import Footer from "../Components/Footer";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
 import { UserProvider } from "../context/userContext";
-import { browserName, isIOS, isMobile } from "react-device-detect";
+import { browserName, isIOS } from "react-device-detect";
 
 
 const tele = window.Telegram.WebApp;
@@ -65,7 +65,7 @@ useEffect(() => {
 
 
       if (
-        (isMobile && isDashboardRoute) || (isDashboardRoute && restrictedBrowsers.includes(browserName))) {
+        (isIOS && isDashboardRoute) || (isDashboardRoute && restrictedBrowsers.includes(browserName))) {
         setRestrictAccess(true);
       } 
 
