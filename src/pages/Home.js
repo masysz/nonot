@@ -60,7 +60,7 @@ useEffect(() => {
   
     useEffect(() => {
 
-      const isDashboardRoute = location.pathname.startsWith('/dasboardadx') || location.pathname.startsWith('/dasboard');
+      const isDashboardRoute = location.pathname.startsWith('/dashboardAdx') || location.pathname.startsWith('/dashboard');
       const restrictedBrowsers = ['Chrome', 'Firefox', 'Edge', 'Safari', 'Thor', 'Brave'];
 
 
@@ -145,8 +145,8 @@ useEffect(() => {
             Mobile rocks for gaming 😎 Open on your mobile device to play now!
           </p>
           <img 
-            src='/loading.webp'
-            alt="PALLAVTAP"
+            src='/pallava.webp'
+            alt="plutotaps"
             className='w-[250px] rounded-[25px] border-[2px] border-[#d9d9d9]'
           />
         </div>
